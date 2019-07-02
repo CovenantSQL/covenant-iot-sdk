@@ -1,0 +1,9 @@
+[submodule "src/json-c"]
+	path = src/json-c
+	url = git@github.com:json-c/json-c.git
+[submodule "src/sqlcipher"]
+	path = src/sqlcipher
+	url = git@github.com:sqlcipher/sqlcipher.git
+[submodule "src/paho.mqtt.c"]
+	path = src/paho.mqtt.c
+	url = git@github.com:eclipse/paho.mqtt.c.git

@@ -1,0 +1,37 @@
+{
+    "block_id": 1024,
+    "block_index": 100001,
+    "client_id": "e3ebec56-259d-4d39-b539-d22fd3373b9c",
+    "client_seq": 10000,
+    "events": [
+        {
+            "pattern": "CREATE TABLE IF NOT EXISTS t1 (c1 int primary key, c2 text)",
+            "args": []
+        },
+        {
+            "pattern": "INSERT INTO t1 (c1, c2) VALUES (?, ?), (?, ?)",
+            "args": [
+                {
+                    "name": "",
+                    "value": 1,
+                    "type": 2
+                },
+                {
+                    "name": "",
+                    "value": "text1",
+                    "type": 1
+                },
+                {
+                    "name": "",
+                    "value": 2,
+                    "type": 2
+                },
+                {
+                    "name": "",
+                    "value": "text2",
+                    "type": 1
+                }
+            ]
+        }
+    ]
+}
